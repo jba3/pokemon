@@ -1,0 +1,46 @@
+*{font-family:Arial;font-size:12px;}
+body{margin:0px;padding:0px;}
+h1{}
+p,ul,ol,li{}
+a{color:#00f;text-decoration:none;}
+hr{height:1px;border:0px none;background-color:#999;color:#999;}
+div#layoutHeader{color:#666;}
+	div#layoutHeader a{font-size:20px;color:#000;}
+div#layoutSelectGame{position:absolute;top:0px;right:0px;color:#666;}
+div#layoutMenu{color:#fff;margin-bottom:10px;}
+	div#layoutMenu table{border-collapse:separate;border:1px solid #fff;width:100%;}
+		div#layoutMenu table tr{}
+			div#layoutMenu table tr td{background-color:#00f;text-align:center;padding:5px;}
+			div#layoutMenu table tr td.home{background-color:#000;}
+			div#layoutMenu table tr td.account{background-color:#060;}
+			div#layoutMenu table tr td.logout{background-color:#666;}
+			div#layoutMenu table tr td.transparent{background-color:transparent;text-align:right;}
+				div#layoutMenu table tr td a{color:#fff;font-weight:bold;}
+div#layoutContent{background-color:#fff;}
+div#layoutFooter{background-color:#ccc;font-weight:bold;padding:3px;text-align:center;margin-top:25px;}
+
+table.datagrid{border-collapse:separate;border:1px solid #fff;}
+	table.datagrid tr{}
+		table.datagrid tr th{background-color:#999;padding:5px 2px 0px 2px;}
+		table.datagrid tr td{background-color:#ddd;padding:0px 2px;}
+		table.datagrid tr.odd td{background-color:#eee;padding:0px 2px;}
+		table.datagrid tr.subline td{background-color:#ccc;padding:0px 2px;}
+		table.datagrid tr.hidden{display:none;}
+		table.datagrid tr td.transparent{background-color:transparent !important;}
+		table.datagrid tr td.damageBad{color:#999;}
+		table.datagrid tr td.damageGood{background-color:#090;font-weight:bold;}
+		table.datagrid tr td.damageNeutral{}
+		table.datagrid tr td.damageNone{background-color:#900;}
+		table.datagrid tr.bonusSTAB td{background-color:#cfc;}
+		table.datagrid tr.bonusDC td{font-weight:bold;}
+
+img.pokemonCaught {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";/* IE 8 */
+	filter: alpha(opacity=25);/* IE 5-7 */
+	-moz-opacity: 0.25;/* Netscape */
+	-khtml-opacity: 0.25;/* Safari 1.x */
+	opacity: 0.25;/* Good browsers */
+}
+img.pokemonToBox {
+	background-color:#0c0;
+}

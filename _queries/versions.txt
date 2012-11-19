@@ -1,0 +1,4 @@
+SELECT v.id, v.version_group_id, v.identifier AS game, vg.generation_id
+FROM versions v
+JOIN version_groups vg ON v.version_group_id = vg.id
+ORDER BY vg.order
