@@ -1,4 +1,5 @@
 #! /bin/bash
-git commit
+git add *
+git commit -m "commit from local"
 git push -u origin master
 
